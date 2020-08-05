@@ -1,14 +1,4 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# 5.1.5 Riddle Class
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
-
-### Setup command
-N/A
-
-### Run command
-`gradle test`
-
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+1. Using the Person class as a guide, write a Riddle class that has 2 instance variables for the riddle’s `question` and `answer`, a constructor that initializes the riddle, and 2 methods to ask the riddle and answer the riddle. Hint: Don’t name your instance variables initQuestion and initAnswer – we’ll explain why shortly. If you came up with other instance variables and methods for this class, you can add those too! Don’t forget to specify the private or public access modifiers. Use the outline in the Riddle.java file. You will learn how to write constructors and other methods in detail in the next lessons.
+2. Complete the main method in Main.java to construct at least 2 Riddle objects and call their printQuestion() and printAnswer() methods to ask and answer the riddle. You can look up some good riddles online.

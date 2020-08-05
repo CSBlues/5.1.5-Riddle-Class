@@ -1,7 +1,13 @@
 package com.example.project;
 
-public class Main {
-    public static void main(final String[] args) {
-        System.out.println("Not the right string, tests will fail!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // call the constructor to create 2 new Riddle objects
+
+
+        // call their printQuestion() and printAnswer methods
+
     }
 }
